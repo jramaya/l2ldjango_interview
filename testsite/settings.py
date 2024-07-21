@@ -65,6 +65,9 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries': {
+                'l2l_extras': 'l2l.templatetags.l2l_extras',
+            }
         },
     },
 ]
